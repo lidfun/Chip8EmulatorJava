@@ -15,7 +15,7 @@ public class Chip8 {
 		Screen scr = new Screen();
 		Beep beep = new Beep();
 		
-		String filename = "C:\\Users\\lidfun\\Documents\\EclipseProjects\\Chip8Emulator\\c8games\\";  //   TETRIS INVADERS 
+		String filename = "../c8games/TETRIS";  //   TETRIS INVADERS 
 		ch8.readRom(filename);
 		
 		scr.initializeScreen();
